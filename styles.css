@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.8s linear;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#quote-box {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 200px;
+    background-color: #ffffffec;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#author {
+    text-align: right;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+#new-quote {
+    margin-left: auto;
+}
+
+button {
+    color: #ffffffec;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;;
+}
